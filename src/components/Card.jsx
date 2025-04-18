@@ -2,6 +2,7 @@ import React from 'react'
 import { CardStack } from "./card-stack";
 import { cn } from "../lib/utils";
  function CardStackDemo() {
+
   return (
     <div className="h-[40rem] flex items-center justify-center w-full">
       <CardStack items={CARDS} />
@@ -9,7 +10,6 @@ import { cn } from "../lib/utils";
   );
 }
 
-// Small utility to highlight the content of specific section of a testimonial content
 export const Highlight = ({
   children,
   className

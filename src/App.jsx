@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import { FaWhatsapp } from 'react-icons/fa';
 import { X } from 'lucide-react';
-import { IconPhone } from '@tabler/icons-react';
+import { IconPhone,IconUserCircle } from '@tabler/icons-react';
 import Ani from "../public/images/ani.gif"
 import  Card  from "./components/Card"
 import  Lamp  from "./components/Lamp"
@@ -129,7 +129,7 @@ function App() {
             >
               <Box sx={{ textAlign: 'center', mt: 2 }}>
                 <Typography display={'flex'} alignItems={'center'} justifyContent="center" variant="h6" gutterBottom>
-                  <IconPhone size={20} />
+                  <IconUserCircle size={20} />
                   <a
                     href="tel:+916374360962"
                     style={{
